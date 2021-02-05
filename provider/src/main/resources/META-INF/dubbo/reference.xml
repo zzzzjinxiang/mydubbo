@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 向注册中心注册暴漏服务地址,注册服务 -->
+    <bean id="QueryInfoServiceImpl" class="com.icbc.provider.DubboServiceImpl.QueryInfoServiceImpl"/>
+    <dubbo:service interface="com.icbc.provider.stub.QueryInfoService"
+                   ref="QueryInfoServiceImpl" />
+</beans>

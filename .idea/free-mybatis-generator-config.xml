@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistentConfig">
+    <option name="historyConfigList">
+      <map>
+        <entry key="dubbo_service">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="provider/src/main/java" />
+              <option name="daoName" value="DubboServiceDao" />
+              <option name="daoPackage" value="com.icbc.provider.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="provider/src/main/java" />
+              <option name="modelName" value="DubboService" />
+              <option name="modelPackage" value="com.icbc.provider.model" />
+              <option name="name" value="dubbo_service" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="dubbo_service" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="provider/main/resources/META-INF" />
+              <option name="xmlPackage" value="" />
+            </Config>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
